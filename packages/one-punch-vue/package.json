@@ -1,0 +1,26 @@
+{
+  "name": "one-punch-vue",
+  "version": "1.0.0",
+  "description": "vue3 components",
+  "scripts": {
+    "build": "vite build"
+  },
+  "keywords": [
+    "vue3",
+    "components"
+  ],
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": "./dist/one-punch-vue.mjs"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue-jsx": "^3.0.1",
+    "vite": "^4.2.1"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.47"
+  },
+  "license": "MIT"
+}

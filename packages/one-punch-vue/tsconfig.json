@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "declaration": true,
+        "declarationDir": "./dist/types",
+        "jsx": "preserve",
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node"
+    },
+    "include": [
+        "./**/*.*",
+        "./shims-vue.d.ts",
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+}

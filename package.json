@@ -1,0 +1,9 @@
+{
+  "name": "vue3-components-setup",
+  "version": "1.0.0",
+  "license": "MIT",
+  "workspaces": [
+    "packages/one-punch-vue",
+    "packages/one-punch-docs"
+  ]
+}

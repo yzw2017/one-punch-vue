@@ -1,0 +1,16 @@
+{
+  "name": "one-punch-docs",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.63"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "one-punch-vue": "^1.0.0"
+  }
+}
