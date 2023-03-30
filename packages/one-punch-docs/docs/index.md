@@ -10,10 +10,10 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /button
+      link: /
     - theme: alt
       text: View on GitHub
-      link: /button
+      link: /
 
 features:
   - icon: <img src="/typescript.svg">
@@ -21,9 +21,9 @@ features:
     details: 丝滑般体验，稳如老狗
   - icon: 💪🏻
     title: Vitest
-    details: 每个组件都配有自动化测试
+    details: 每个组件都配有测试用例
   - icon: ⚡
     title: 按需加载
-    details: 让你的应用轻如鸿毛
+    details: 让你的应用快如闪电
 ---
 

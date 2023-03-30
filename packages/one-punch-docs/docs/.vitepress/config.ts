@@ -5,11 +5,26 @@ export default defineConfig({
   themeConfig: {
     sidebar: [
       {
-        text: '组件',
+        text: 'Layout',
         items: [
-          { text: 'Button', link: '/button' },
+          { text: 'Space', link: '/components/space' },
         ]
-      }
+      },
+      {
+        text: 'General',
+        items: [
+          { text: 'Button', link: '/components/button' },
+        ]
+      },
+      {
+        text: 'Data Entry',
+        items: [
+          { text: 'Input', link: '/components/input' },
+        ]
+      },
+    ],
+    nav: [
+      { text: '组件', link: '/components/button' }
     ]
   }
 })

@@ -1,3 +1,4 @@
+/// <reference types="vitest" />
 import { defineConfig } from "vite"
 import vueJsx from '@vitejs/plugin-vue-jsx'
 
@@ -6,6 +7,7 @@ export default defineConfig({
         vueJsx({}),
     ],
     build: {
+        target: 'esnext',
         lib: {
             entry: "./components/main.ts",
             name: "one-punch-vue",
@@ -14,5 +16,12 @@ export default defineConfig({
         rollupOptions: {
             external: ["vue"]
         }
-    }
+    },
+    test: {
+        globals: true,
+        environment: 'jsdom',
+        transformMode: {
+          web: [/.[tj]sx$/],
+        }
+    },
 })

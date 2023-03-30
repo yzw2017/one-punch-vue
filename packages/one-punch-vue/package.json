@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "vue3 components",
   "scripts": {
-    "build": "vite build"
+    "build": "vite build",
+    "test": "vitest"
   },
   "keywords": [
     "vue3",
@@ -13,11 +14,16 @@
     "dist"
   ],
   "exports": {
-    ".": "./dist/one-punch-vue.mjs"
+    ".": "./dist/one-punch-vue.mjs",
+    "./css": "./dist/style.css"
   },
   "devDependencies": {
     "@vitejs/plugin-vue-jsx": "^3.0.1",
-    "vite": "^4.2.1"
+    "@vue/test-utils": "^2.3.2",
+    "jsdom": "^21.1.1",
+    "sass": "^1.60.0",
+    "vite": "^4.2.1",
+    "vitest": "^0.29.8"
   },
   "peerDependencies": {
     "vue": "^3.2.47"

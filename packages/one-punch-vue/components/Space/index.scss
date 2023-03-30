@@ -1,0 +1,12 @@
+$btn-prefix:".ant-space";
+
+#{$btn-prefix} {
+    display: inline-flex;
+    &-horizontal {
+        flex-direction: row;
+        align-items: center;
+    }
+    &-vertical {
+        flex-direction: column;
+    }
+}
