@@ -22,6 +22,7 @@ export default defineComponent({
             default: 'button'
         },
     },
+    emits: ['click'],
     setup(props, { slots, emit }) {
         return () => {
             const { type, size, htmlType } = props
@@ -32,7 +33,7 @@ export default defineComponent({
                     [`ant-btn-${size}`]: size,
                 }
             })
-            const clickFn = () => {
+            const clickFn = (e: Event) => {
                 emit('click')
             }
             return <button class={classes.value} onClick={clickFn} type={htmlType}>{ slots.default?.() }</button>

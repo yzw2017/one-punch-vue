@@ -21,6 +21,6 @@ describe('Button', () => {
 
     test('click', () => {
         wrapper.trigger('click')
-        expect(fn).toHaveBeenCalled()
+        expect(fn).toHaveBeenCalledTimes(1)
     })
 })
