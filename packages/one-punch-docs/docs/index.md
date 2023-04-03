@@ -10,10 +10,10 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /
+      link: /guide
     - theme: alt
       text: View on GitHub
-      link: /
+      link: https://github.com/yzw2017/one-punch-vue
 
 features:
   - icon: <img src="/typescript.svg">
