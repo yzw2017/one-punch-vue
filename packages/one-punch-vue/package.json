@@ -1,6 +1,6 @@
 {
   "name": "one-punch-vue",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "vue3 components",
   "scripts": {
     "build": "vite build",
