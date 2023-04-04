@@ -1,3 +1,4 @@
 /**/dist
+!packages/one-punch-vue/dist
 /**/cache
 node_modules/
