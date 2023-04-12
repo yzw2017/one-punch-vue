@@ -24,6 +24,12 @@ export default defineConfig({
         ]
       },
       {
+        text: '人机验证',
+        items: [
+          { text: 'Validate', link: '/components/validate' },
+        ]
+      },
+      {
         text: '指令',
         items: [
           { text: 'v-loading', link: '/directive/loading' },

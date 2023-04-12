@@ -2,6 +2,7 @@
   "name": "one-punch-vue",
   "version": "1.0.3",
   "description": "vue3 components",
+  "type": "module",
   "scripts": {
     "build": "vite build",
     "test": "vitest"
@@ -14,10 +15,14 @@
     "dist"
   ],
   "exports": {
-    ".": "./dist/one-punch-vue.mjs",
+    ".": {
+      "import": "./dist/one-punch-vue.js",
+      "require": "./dist/one-punch-vue.umd.cjs"
+    },
     "./css": "./dist/style.css"
   },
   "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
     "@vitejs/plugin-vue-jsx": "^3.0.1",
     "@vue/test-utils": "^2.3.2",
     "jsdom": "^21.1.1",
@@ -28,5 +33,8 @@
   "peerDependencies": {
     "vue": "^3.2.47"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@vueuse/core": "^9.13.0"
+  }
 }
