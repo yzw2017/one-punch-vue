@@ -1,7 +1,11 @@
 <template>
     <teleport :to="container">
         <transition>
-            <div v-if="ready" class="mask">
+            <div 
+                v-if="ready" 
+                class="mask"
+                :style="{position: container==='body'?'fixed':'absolute'}"    
+            >
                 <div class="box">
                     <template v-if="captcha.type === 1">
                         <div class="img-wrap" ref="imgWrap">

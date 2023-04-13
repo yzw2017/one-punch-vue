@@ -5,7 +5,7 @@
 ## Examples
 
 <ClientOnly>
-    <div class="test" v-loading="show">{{ !show ? '一拳超人' : '加载中...' }}</div>
+    <div class="mock-loading-wrap" v-loading="show">{{ !show ? '一拳超人' : '加载中...' }}</div>
     <op-button type="primary" @click="show = !show">切换 Loading</op-button>
 </ClientOnly>
 
@@ -16,12 +16,21 @@ const show = ref(true)
 </script>
 
 <style scope>
-.test{display:flex;height:300px;background:#ddd;justify-content:center;align-items:center;margin-bottom:20px}
+.mock-loading-wrap {
+    position: relative;
+    display:flex;
+    width: 500px;
+    height:300px;
+    background:#ddd;
+    justify-content:center;
+    align-items:center;
+    margin:20px 0;
+}
 </style>
 
 ```vue
 <template>
-    <div class="box" v-loading="show">{{ !show ? '一拳超人' : '加载中...' }}</div>
+    <div v-loading="show">{{ !show ? '一拳超人' : '加载中...' }}</div>
     <op-button type="primary" @click="show = !show">切换 Loading</op-button>
 </template>
 

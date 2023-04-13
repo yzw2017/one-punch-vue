@@ -481,7 +481,7 @@
     }
   });
 
-  const index_vue_vue_type_style_index_0_scoped_b5bc8801_lang = '';
+  const index_vue_vue_type_style_index_0_scoped_3fc92646_lang = '';
 
   const _export_sfc = (sfc, props) => {
     const target = sfc.__vccOpts || sfc;
@@ -491,44 +491,44 @@
     return target;
   };
 
-  const _withScopeId = (n) => (vue.pushScopeId("data-v-b5bc8801"), n = n(), vue.popScopeId(), n);
-  const _hoisted_1 = {
-    key: 0,
-    class: "mask"
-  };
-  const _hoisted_2 = { class: "box" };
-  const _hoisted_3 = {
+  const _withScopeId = (n) => (vue.pushScopeId("data-v-3fc92646"), n = n(), vue.popScopeId(), n);
+  const _hoisted_1 = { class: "box" };
+  const _hoisted_2 = {
     class: "img-wrap",
     ref: "imgWrap"
   };
+  const _hoisted_3 = ["src"];
   const _hoisted_4 = ["src"];
-  const _hoisted_5 = ["src"];
-  const _hoisted_6 = {
+  const _hoisted_5 = {
     class: "slider-control",
     ref: "sliderRef"
   };
-  const _hoisted_7 = {
+  const _hoisted_6 = {
     key: 0,
     class: "slider-tips"
   };
-  const _hoisted_8 = { class: "img-wrap" };
-  const _hoisted_9 = ["src"];
-  const _hoisted_10 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ vue.createElementVNode("span", null, "\u8BF7\u4F9D\u6B21\u70B9\u51FB", -1));
-  const _hoisted_11 = { class: "bottom" };
-  const _hoisted_12 = { class: "bottom-left" };
-  const _hoisted_13 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ vue.createElementVNode("div", { class: "bottom-right" }, "\u6839\u636E\u5353\u535A\u9A8C\u8BC1\u673A\u5236\u63D0\u4F9B", -1));
+  const _hoisted_7 = { class: "img-wrap" };
+  const _hoisted_8 = ["src"];
+  const _hoisted_9 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ vue.createElementVNode("span", null, "\u8BF7\u4F9D\u6B21\u70B9\u51FB", -1));
+  const _hoisted_10 = { class: "bottom" };
+  const _hoisted_11 = { class: "bottom-left" };
+  const _hoisted_12 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ vue.createElementVNode("div", { class: "bottom-right" }, "\u6839\u636E\u5353\u535A\u9A8C\u8BC1\u673A\u5236\u63D0\u4F9B", -1));
   function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     return vue.openBlock(), vue.createBlock(vue.Teleport, { to: _ctx.container }, [
       vue.createVNode(vue.Transition, null, {
         default: vue.withCtx(() => [
-          _ctx.ready ? (vue.openBlock(), vue.createElementBlock("div", _hoisted_1, [
-            vue.createElementVNode("div", _hoisted_2, [
+          _ctx.ready ? (vue.openBlock(), vue.createElementBlock("div", {
+            key: 0,
+            class: "mask",
+            style: vue.normalizeStyle({ position: _ctx.container === "body" ? "fixed" : "absolute" })
+          }, [
+            vue.createElementVNode("div", _hoisted_1, [
               _ctx.captcha.type === 1 ? (vue.openBlock(), vue.createElementBlock(vue.Fragment, { key: 0 }, [
-                vue.createElementVNode("div", _hoisted_3, [
+                vue.createElementVNode("div", _hoisted_2, [
                   vue.createElementVNode("img", {
                     src: _ctx.captcha.src,
                     draggable: "false"
-                  }, null, 8, _hoisted_4),
+                  }, null, 8, _hoisted_3),
                   vue.createElementVNode("img", {
                     ref: "floatImgRef",
                     class: "float",
@@ -536,9 +536,9 @@
                     style: vue.normalizeStyle("top:" + _ctx.captcha.y + "px"),
                     draggable: "false",
                     onMousedown: _cache[0] || (_cache[0] = (...args) => _ctx.mousedown && _ctx.mousedown(...args))
-                  }, null, 44, _hoisted_5)
+                  }, null, 44, _hoisted_4)
                 ], 512),
-                vue.createElementVNode("div", _hoisted_6, [
+                vue.createElementVNode("div", _hoisted_5, [
                   vue.createElementVNode("div", {
                     class: vue.normalizeClass(["slider-border", [_ctx.status]]),
                     ref: "sliderBorderRef"
@@ -552,16 +552,16 @@
                       class: vue.normalizeClass(["slider-icon", [_ctx.status]])
                     }, null, 2)
                   ], 34),
-                  _ctx.status === "free" ? (vue.openBlock(), vue.createElementBlock("div", _hoisted_7, "\u5411\u53F3\u62D6\u52A8\u6ED1\u5757\u586B\u5145\u62FC\u56FE")) : vue.createCommentVNode("", true)
+                  _ctx.status === "free" ? (vue.openBlock(), vue.createElementBlock("div", _hoisted_6, "\u5411\u53F3\u62D6\u52A8\u6ED1\u5757\u586B\u5145\u62FC\u56FE")) : vue.createCommentVNode("", true)
                 ], 512)
               ], 64)) : _ctx.captcha.type === 2 ? (vue.openBlock(), vue.createElementBlock(vue.Fragment, { key: 1 }, [
-                vue.createElementVNode("div", _hoisted_8, [
+                vue.createElementVNode("div", _hoisted_7, [
                   vue.createElementVNode("img", {
                     class: "base",
                     draggable: "false",
                     onClick: _cache[2] || (_cache[2] = (...args) => _ctx.handleImgClick && _ctx.handleImgClick(...args)),
                     src: _ctx.captcha.src
-                  }, null, 8, _hoisted_9),
+                  }, null, 8, _hoisted_8),
                   (vue.openBlock(true), vue.createElementBlock(vue.Fragment, null, vue.renderList(_ctx.clickImgPoints, (item) => {
                     return vue.openBlock(), vue.createElementBlock("i", {
                       key: item.id,
@@ -574,7 +574,7 @@
                   class: vue.normalizeClass(["text-control", [_ctx.status]])
                 }, [
                   !["success", "fail"].includes(_ctx.status) ? (vue.openBlock(), vue.createElementBlock(vue.Fragment, { key: 0 }, [
-                    _hoisted_10,
+                    _hoisted_9,
                     vue.createElementVNode("span", {
                       class: "clickImg",
                       style: vue.normalizeStyle(_ctx.clickImgStyle)
@@ -587,8 +587,8 @@
                   ], 64))
                 ], 2)
               ], 64)) : vue.createCommentVNode("", true),
-              vue.createElementVNode("div", _hoisted_11, [
-                vue.createElementVNode("div", _hoisted_12, [
+              vue.createElementVNode("div", _hoisted_10, [
+                vue.createElementVNode("div", _hoisted_11, [
                   vue.createElementVNode("a", {
                     class: "bottom-close",
                     onClick: _cache[3] || (_cache[3] = ($event) => _ctx.$emit("close"))
@@ -598,16 +598,16 @@
                     onClick: _cache[4] || (_cache[4] = (...args) => _ctx.refresh && _ctx.refresh(...args))
                   })
                 ]),
-                _hoisted_13
+                _hoisted_12
               ])
             ])
-          ])) : vue.createCommentVNode("", true)
+          ], 4)) : vue.createCommentVNode("", true)
         ]),
         _: 1
       })
     ], 8, ["to"]);
   }
-  const Validate = /* @__PURE__ */ _export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-b5bc8801"]]);
+  const Validate = /* @__PURE__ */ _export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-3fc92646"]]);
 
   const index = '';
 

@@ -41,13 +41,13 @@ const success = (token) => {
 }
 </script>
 
-## 区域显示
+## 局部显示
 
 <ClientOnly>
-    <op-button type="primary" @click="showBox = true">区域显示</op-button>
-    <div class="test"></div>
+    <op-button type="primary" @click="showBox = true">开始验证</op-button>
+    <div class="mock-validate-wrap"></div>
     <op-validate 
-        container=".test"
+        container=".mock-validate-wrap"
         :show="showBox"
         img-url="https://b18.dgcn.com/demo/captcha/getDemoPicCaptcha.ujson?captchaType=1" 
         vali-url="https://b18.dgcn.com/demo/captcha/validateDemoPicCaptcha.ujson"
@@ -57,12 +57,12 @@ const success = (token) => {
 </ClientOnly>
 
 <style>
-    .test {
+    .mock-validate-wrap {
         position: relative;
         width: 600px;
         height: 500px;
         background: pink;
-        margin: 20px auto;
+        margin: 20px 0;
     }
 </style>
 

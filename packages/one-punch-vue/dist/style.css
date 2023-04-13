@@ -2513,7 +2513,7 @@ textarea.ant-input {
   .ant-input-affix-wrapper > input.ant-input {
     height: auto;
   }
-}.mask[data-v-b5bc8801] {
+}.mask[data-v-3fc92646] {
   position: absolute;
   top: 0;
   left: 0;
@@ -2526,7 +2526,7 @@ textarea.ant-input {
   z-index: 999;
   user-select: none;
 }
-.mask .box[data-v-b5bc8801] {
+.mask .box[data-v-3fc92646] {
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 6px;
@@ -2535,36 +2535,36 @@ textarea.ant-input {
   font-family: "Microsoft yahei";
   font-size: 0;
 }
-.mask .box .img-wrap[data-v-b5bc8801] {
+.mask .box .img-wrap[data-v-3fc92646] {
   position: relative;
   width: 300px;
   height: 200px;
   overflow: hidden;
 }
-.mask .box .img-wrap .float[data-v-b5bc8801] {
+.mask .box .img-wrap .float[data-v-3fc92646] {
   position: absolute;
   left: 0;
   cursor: pointer;
 }
-.mask .box .img-wrap .point[data-v-b5bc8801] {
+.mask .box .img-wrap .point[data-v-3fc92646] {
   width: 25px;
   height: 25px;
   position: absolute;
   background: url(https://www.jobcn.com/commImage/captcha_icon.png) no-repeat -100px 0;
 }
-.mask .box .img-wrap .point.a1[data-v-b5bc8801] {
+.mask .box .img-wrap .point.a1[data-v-3fc92646] {
   background-position: -100px 0;
 }
-.mask .box .img-wrap .point.a2[data-v-b5bc8801] {
+.mask .box .img-wrap .point.a2[data-v-3fc92646] {
   background-position: -100px -50px;
 }
-.mask .box .img-wrap .point.a3[data-v-b5bc8801] {
+.mask .box .img-wrap .point.a3[data-v-3fc92646] {
   background-position: -100px -100px;
 }
-.mask .box .img-wrap .point.a4[data-v-b5bc8801] {
+.mask .box .img-wrap .point.a4[data-v-3fc92646] {
   background-position: -50px -100px;
 }
-.mask .box .common-control[data-v-b5bc8801], .mask .box .text-control[data-v-b5bc8801], .mask .box .slider-control[data-v-b5bc8801] {
+.mask .box .common-control[data-v-3fc92646], .mask .box .text-control[data-v-3fc92646], .mask .box .slider-control[data-v-3fc92646] {
   position: relative;
   border: 1px solid #e4e7eb;
   background-color: #f7f9fa;
@@ -2572,7 +2572,7 @@ textarea.ant-input {
   border-radius: 2px;
   margin: 10px 0;
 }
-.mask .box .slider-control .slider-border[data-v-b5bc8801] {
+.mask .box .slider-control .slider-border[data-v-3fc92646] {
   position: absolute;
   top: -1px;
   left: -1px;
@@ -2582,19 +2582,19 @@ textarea.ant-input {
   width: 0;
   box-sizing: border-box;
 }
-.mask .box .slider-control .slider-border.pending[data-v-b5bc8801] {
+.mask .box .slider-control .slider-border.pending[data-v-3fc92646] {
   border-color: #1991fa;
   background-color: #d1e9fe;
 }
-.mask .box .slider-control .slider-border.success[data-v-b5bc8801] {
+.mask .box .slider-control .slider-border.success[data-v-3fc92646] {
   border-color: #52CCBA;
   background-color: #D2F4EF;
 }
-.mask .box .slider-control .slider-border.fail[data-v-b5bc8801] {
+.mask .box .slider-control .slider-border.fail[data-v-3fc92646] {
   border-color: #f57a7a;
   background-color: #fce1e1;
 }
-.mask .box .slider-control .slider-btn[data-v-b5bc8801] {
+.mask .box .slider-control .slider-btn[data-v-3fc92646] {
   position: absolute;
   width: 40px;
   border-radius: 2px;
@@ -2610,40 +2610,40 @@ textarea.ant-input {
   justify-content: center;
   align-items: center;
 }
-.mask .box .slider-control .slider-btn[data-v-b5bc8801]:hover {
+.mask .box .slider-control .slider-btn[data-v-3fc92646]:hover {
   background-color: #1991fa;
 }
-.mask .box .slider-control .slider-btn:hover > .slider-icon[data-v-b5bc8801] {
+.mask .box .slider-control .slider-btn:hover > .slider-icon[data-v-3fc92646] {
   background-position: 0 -30px;
 }
-.mask .box .slider-control .slider-btn.pending[data-v-b5bc8801] {
+.mask .box .slider-control .slider-btn.pending[data-v-3fc92646] {
   background-color: #1991fa;
 }
-.mask .box .slider-control .slider-btn.success[data-v-b5bc8801] {
+.mask .box .slider-control .slider-btn.success[data-v-3fc92646] {
   background-color: #52CCBA;
 }
-.mask .box .slider-control .slider-btn.fail[data-v-b5bc8801] {
+.mask .box .slider-control .slider-btn.fail[data-v-3fc92646] {
   background-color: #f57a7a;
 }
-.mask .box .slider-control .slider-btn .slider-icon[data-v-b5bc8801] {
+.mask .box .slider-control .slider-btn .slider-icon[data-v-3fc92646] {
   width: 14px;
   height: 10px;
   background-image: url(https://cstaticdun.126.net/2.21.3/images/icon_light.4e88fb8.png);
   background-position: 0 -15px;
   background-size: 40px 1518px;
 }
-.mask .box .slider-control .slider-btn .slider-icon.pending[data-v-b5bc8801] {
+.mask .box .slider-control .slider-btn .slider-icon.pending[data-v-3fc92646] {
   background-position: 0 -30px;
 }
-.mask .box .slider-control .slider-btn .slider-icon.success[data-v-b5bc8801] {
+.mask .box .slider-control .slider-btn .slider-icon.success[data-v-3fc92646] {
   background-position: 0 0;
 }
-.mask .box .slider-control .slider-btn .slider-icon.fail[data-v-b5bc8801] {
+.mask .box .slider-control .slider-btn .slider-icon.fail[data-v-3fc92646] {
   width: 14px;
   height: 12px;
   background-position: 1px -94px;
 }
-.mask .box .slider-control .slider-tips[data-v-b5bc8801] {
+.mask .box .slider-control .slider-tips[data-v-3fc92646] {
   padding-left: 40px;
   text-align: center;
   color: #45494c;
@@ -2651,73 +2651,73 @@ textarea.ant-input {
   line-height: 40px;
   white-space: nowrap;
 }
-.mask .box .text-control[data-v-b5bc8801] {
+.mask .box .text-control[data-v-3fc92646] {
   font-size: 14px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.mask .box .text-control .clickImg[data-v-b5bc8801] {
+.mask .box .text-control .clickImg[data-v-3fc92646] {
   height: 36px;
   background-position: 0 -201px;
   background-color: #fff;
   background-repeat: no-repeat;
   margin: 0 10px;
 }
-.mask .box .text-control .icon[data-v-b5bc8801] {
+.mask .box .text-control .icon[data-v-3fc92646] {
   background-image: url(https://cstaticdun.126.net/2.21.3/images/icon_light.4e88fb8.png);
   background-size: 40px 1518px;
   margin: 0 5px;
 }
-.mask .box .text-control .icon.fail[data-v-b5bc8801] {
+.mask .box .text-control .icon.fail[data-v-3fc92646] {
   width: 14px;
   height: 12px;
   background-position: 0 -77px;
 }
-.mask .box .text-control .icon.success[data-v-b5bc8801] {
+.mask .box .text-control .icon.success[data-v-3fc92646] {
   width: 17px;
   height: 13px;
   background-position: 0 -110px;
 }
-.mask .box .text-control.fail[data-v-b5bc8801] {
+.mask .box .text-control.fail[data-v-3fc92646] {
   border-color: #f57a7a;
   background-color: #fce1e1;
   color: #f57a7a;
 }
-.mask .box .text-control.success[data-v-b5bc8801] {
+.mask .box .text-control.success[data-v-3fc92646] {
   border-color: #52CCBA;
   background-color: #D2F4EF;
   color: #52CCBA;
 }
-.mask .box .bottom[data-v-b5bc8801] {
+.mask .box .bottom[data-v-3fc92646] {
   margin-top: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.mask .box .bottom .bottom-right[data-v-b5bc8801] {
+.mask .box .bottom .bottom-right[data-v-3fc92646] {
   font-size: 14px;
   color: #aaa;
 }
-.mask .box .bottom .bottom-left[data-v-b5bc8801] {
+.mask .box .bottom .bottom-left[data-v-3fc92646] {
   display: inline-flex;
   align-items: center;
 }
-.mask .box .bottom .bottom-left .bottom-close[data-v-b5bc8801] {
+.mask .box .bottom .bottom-left .bottom-close[data-v-3fc92646] {
   height: 24px;
   width: 24px;
   background: url(https://www.jobcn.com/commImage/captcha_icon.png) no-repeat;
   background-position: 0 0;
   cursor: pointer;
 }
-.mask .box .bottom .bottom-left .bottom-refresh[data-v-b5bc8801] {
+.mask .box .bottom .bottom-left .bottom-refresh[data-v-3fc92646] {
   height: 24px;
   width: 24px;
   background: url(https://www.jobcn.com/commImage/captcha_icon.png) no-repeat;
   background-position: -50px 0;
   cursor: pointer;
 }
-.mask .box .bottom .bottom-left > a + a[data-v-b5bc8801] {
+.mask .box .bottom .bottom-left > a + a[data-v-3fc92646] {
   margin-left: 10px;
 }.g-relative {
   position: relative;
